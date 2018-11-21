@@ -1,0 +1,40 @@
+https://gist.github.com/futuresocks/3d357d983cb4b6c9dd65d8b8a144abab
+
+Polymorphism & Composition Homework - Quiz
+------------------------------------------
+
+Polymorphism
+------------
+
+1) What does the word 'polymorphism' mean?
+   Polymorphism mean Multiple forms or shapes.
+
+2) What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+  In terms of subtyping polymorphism, we can use a reference of the parent class object
+  to store an instance of the child class.
+
+3) What can we use to implement polymorphism in Java?
+   We can use method overloading, subtyping or parametric polymorphism.
+
+4) How many 'forms' can an object take when using polymorphism?
+   An object can take multiple forms.
+
+5) Give an example of when you could use polymorphism.
+  If we have to model a car which is made up of different components (e.g., Engine, wheels),
+  we can create a parent class "component" which would be able to refer to all different kind of components.
+  We could then create an Array list of type "component" holding Engine and Wheel objects.
+
+Composition
+-----------
+
+6) What do we mean by 'composition' in reference to object-oriented programming?
+  It means passing the object of one class into another so that we can call the
+  methods on the object being passed in.
+
+7) When would you use composition? Provide a simple example in Java.
+ If we have to implement a method to sell a car to a customer, we can pass a customer
+ object to a method in the car. The car class would then be able to access public methods
+ on that customer object e.g, updating customers wallet after the sale of the car.
+
+8) What is/are the advantage(s) of using composition?
+  It makes the code expandable and reusable.
